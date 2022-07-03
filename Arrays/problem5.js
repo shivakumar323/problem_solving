@@ -49,3 +49,5 @@ function remove_duplicates(arr) {
 let arr = [5, 1, 2, 6, 4, 4, 5];
 
 remove_duplicates(arr);
+
+// output: [ '1', '2', '4', '5', '6' ]

@@ -26,14 +26,14 @@ function f(arr, sum) {
 
     for(let i = 0; i < arr.length; i++) {
         let numToFind = sum - arr[i];
-        if(numToFind in obj && obj.numToFind != i) {
+        if((numToFind in obj) && (obj[numToFind] != i)) {
             let x = "[ " + obj[numToFind] + ", " + i + " ]";
             return (x);
         }
     }
 }
 
-let arr = [2, 7, 11, 15];
-console.log(f(arr, 18));
+let arr = [3, 2, 4];
+console.log(f(arr, 6));
 
 //output: [ 2, 1 ]
