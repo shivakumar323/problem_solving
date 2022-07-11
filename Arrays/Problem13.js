@@ -53,3 +53,5 @@ var topKFrequent = function(arr, k) {
 let arr = [1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4];
 
 console.log(topKFrequent(arr, 3));
+
+// output: [ 3, 1, 2 ]
