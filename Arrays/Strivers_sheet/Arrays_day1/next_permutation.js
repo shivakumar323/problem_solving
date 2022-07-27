@@ -78,3 +78,11 @@ function reverse(arr, i, j) {
 
 let arr = [3, 2, 1];
 console.log(next_permutation(arr));
+
+// output: [ 1, 2, 3 ]
+/*
+Time Complexity: For the first iteration backward, the second interaction backward and reversal at the end takes O(N) for each, where N is the number of elements in the input array. This sums up to 3*O(N) which is approximately O(N).
+
+Space Complexity: Since no extra storage is required. Thus, its complexity is O(1).
+
+*/
